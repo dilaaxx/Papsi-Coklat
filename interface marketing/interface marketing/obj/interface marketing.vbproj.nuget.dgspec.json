@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\source\\repos\\interface marketing\\interface marketing\\interface marketing.vbproj": {}
+    "C:\\Users\\ACER\\Documents\\GitHub\\Papsi-Coklat\\interface marketing\\interface marketing\\interface marketing.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\source\\repos\\interface marketing\\interface marketing\\interface marketing.vbproj": {
+    "C:\\Users\\ACER\\Documents\\GitHub\\Papsi-Coklat\\interface marketing\\interface marketing\\interface marketing.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\source\\repos\\interface marketing\\interface marketing\\interface marketing.vbproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Documents\\GitHub\\Papsi-Coklat\\interface marketing\\interface marketing\\interface marketing.vbproj",
         "projectName": "interface marketing",
-        "projectPath": "C:\\Users\\ACER\\source\\repos\\interface marketing\\interface marketing\\interface marketing.vbproj",
+        "projectPath": "C:\\Users\\ACER\\Documents\\GitHub\\Papsi-Coklat\\interface marketing\\interface marketing\\interface marketing.vbproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\source\\repos\\interface marketing\\interface marketing\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\Documents\\GitHub\\Papsi-Coklat\\interface marketing\\interface marketing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

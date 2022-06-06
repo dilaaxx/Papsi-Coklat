@@ -44,12 +44,8 @@ Partial Class Planning
         Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
         Me.TextBox16 = New System.Windows.Forms.TextBox()
@@ -83,12 +79,8 @@ Partial Class Planning
         Me.GroupBox2.Controls.Add(Me.Button2)
         Me.GroupBox2.Controls.Add(Me.Button1)
         Me.GroupBox2.Controls.Add(Me.DataGridView2)
-        Me.GroupBox2.Controls.Add(Me.TextBox10)
-        Me.GroupBox2.Controls.Add(Me.TextBox11)
         Me.GroupBox2.Controls.Add(Me.DateTimePicker2)
         Me.GroupBox2.Controls.Add(Me.Label14)
-        Me.GroupBox2.Controls.Add(Me.Label15)
-        Me.GroupBox2.Controls.Add(Me.Label16)
         Me.GroupBox2.Controls.Add(Me.TextBox14)
         Me.GroupBox2.Controls.Add(Me.TextBox15)
         Me.GroupBox2.Controls.Add(Me.TextBox16)
@@ -268,20 +260,6 @@ Partial Class Planning
         Me.DataGridViewTextBoxColumn10.Name = "DataGridViewTextBoxColumn10"
         Me.DataGridViewTextBoxColumn10.Width = 150
         '
-        'TextBox10
-        '
-        Me.TextBox10.Location = New System.Drawing.Point(713, 88)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(229, 31)
-        Me.TextBox10.TabIndex = 21
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Location = New System.Drawing.Point(713, 138)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(229, 31)
-        Me.TextBox11.TabIndex = 20
-        '
         'DateTimePicker2
         '
         Me.DateTimePicker2.Location = New System.Drawing.Point(713, 40)
@@ -297,24 +275,6 @@ Partial Class Planning
         Me.Label14.Size = New System.Drawing.Size(131, 25)
         Me.Label14.TabIndex = 16
         Me.Label14.Text = "Tanggal Selesai"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(516, 91)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(60, 25)
-        Me.Label15.TabIndex = 15
-        Me.Label15.Text = "Id RM"
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(516, 135)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(168, 25)
-        Me.Label16.TabIndex = 14
-        Me.Label16.Text = "Jumlah RM Terpakai"
         '
         'TextBox14
         '
@@ -422,12 +382,8 @@ Partial Class Planning
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents DataGridView2 As DataGridView
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
     Friend WithEvents DateTimePicker2 As DateTimePicker
     Friend WithEvents Label14 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label16 As Label
     Friend WithEvents TextBox14 As TextBox
     Friend WithEvents TextBox15 As TextBox
     Friend WithEvents TextBox16 As TextBox
