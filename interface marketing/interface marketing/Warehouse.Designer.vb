@@ -23,6 +23,11 @@ Partial Class Warehouse
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -52,17 +57,9 @@ Partial Class Warehouse
         Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -91,6 +88,41 @@ Partial Class Warehouse
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Stock Material"
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(170, 246)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(190, 26)
+        Me.TextBox6.TabIndex = 19
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(170, 197)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(190, 26)
+        Me.TextBox5.TabIndex = 18
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(170, 162)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(190, 26)
+        Me.TextBox4.TabIndex = 17
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(170, 121)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(190, 26)
+        Me.TextBox3.TabIndex = 16
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(170, 34)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(190, 26)
+        Me.TextBox2.TabIndex = 15
         '
         'Label3
         '
@@ -332,41 +364,20 @@ Partial Class Warehouse
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.Label13)
-        Me.GroupBox2.Controls.Add(Me.Label14)
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.Label5)
-        Me.GroupBox2.Controls.Add(Me.Label11)
         Me.GroupBox2.Controls.Add(Me.Label12)
         Me.GroupBox2.Location = New System.Drawing.Point(36, 493)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(320, 277)
         Me.GroupBox2.TabIndex = 7
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Stock Finish Good"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(6, 158)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(136, 25)
-        Me.Label13.TabIndex = 12
-        Me.Label13.Text = "Jumlah Pesanan"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(6, 118)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(224, 25)
-        Me.Label14.TabIndex = 12
-        Me.Label14.Text = "Jumlah Finish Good Masuk"
+        Me.GroupBox2.Text = "Finish Good"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(0, 238)
+        Me.Label4.Location = New System.Drawing.Point(6, 108)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(226, 25)
         Me.Label4.TabIndex = 8
@@ -375,20 +386,11 @@ Partial Class Warehouse
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(6, 198)
+        Me.Label5.Location = New System.Drawing.Point(6, 73)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(230, 25)
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "Tanggal Finish Good Masuk"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(6, 76)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(215, 25)
-        Me.Label11.TabIndex = 10
-        Me.Label11.Text = "Jumlah Stock Finish Good"
         '
         'Label12
         '
@@ -398,41 +400,6 @@ Partial Class Warehouse
         Me.Label12.Size = New System.Drawing.Size(54, 25)
         Me.Label12.TabIndex = 11
         Me.Label12.Text = "Id FG"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(170, 34)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(190, 26)
-        Me.TextBox2.TabIndex = 15
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(170, 121)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(190, 26)
-        Me.TextBox3.TabIndex = 16
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(170, 162)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(190, 26)
-        Me.TextBox4.TabIndex = 17
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(170, 197)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(190, 26)
-        Me.TextBox5.TabIndex = 18
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(170, 246)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(190, 26)
-        Me.TextBox6.TabIndex = 19
         '
         'Warehouse
         '
@@ -485,7 +452,6 @@ Partial Class Warehouse
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
@@ -499,8 +465,6 @@ Partial Class Warehouse
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label14 As Label
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents TextBox4 As TextBox
